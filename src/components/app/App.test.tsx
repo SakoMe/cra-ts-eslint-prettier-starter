@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import { App } from './';
+import { App } from './App';
 
 describe('<App /> spec', () => {
   it('renders App', () => {
