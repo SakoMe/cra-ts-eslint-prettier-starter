@@ -29,8 +29,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
+    'plugin:cypress/recommended',
   ],
-  plugins: ['simple-import-sort', 'prettier', 'jest'],
+  plugins: ['simple-import-sort', 'prettier', 'jest', 'cypress'],
   rules: {
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'error',
