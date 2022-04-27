@@ -1,4 +1,4 @@
-import { cy, it, describe } from 'local-cypress';
+import { cy, describe, it } from 'local-cypress';
 
 describe('<App /> end to end', () => {
   it('user can visit root route and find starter text', () => {
